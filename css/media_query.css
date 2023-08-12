@@ -1,0 +1,72 @@
+
+@media(max-width:992px){
+    .menubar{
+        display: block;
+    }
+    .navbar .nav-links{
+        display: none;
+    }
+    .skill-page .column1, .skill-page .column2{  
+        width: 100%;
+    }
+    .meet-gallery{
+        margin: 10px;
+    }
+    .map-form{
+        flex-direction: column;
+        margin: 110px;
+    }
+}
+@media(max-width:880px){
+    .meet-gallery{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:786px){
+    .page{
+        width: 50%;
+    }
+    .map-form{ 
+        margin: 70px;
+    }
+   .footer{
+    text-align: center;
+   }
+    
+}
+
+@media(max-width:600px){
+    .pricing-plan2 .column{
+        flex-basis: 350px;
+    }
+    .map-form{ 
+        margin: 0px;
+    }
+   
+}
+
+@media(max-width:480px){
+    .page{
+        width: 100%;
+        padding: 0;
+    }
+    .skill-page .column1, .skill-page .column2{   
+        padding: 16px 5px;
+    }
+    .showcase .text{
+        line-height: 3.5em;
+    }
+}
+
+@media(max-width:400px){
+    .column1, .column2, .column3{
+        padding: 0px;
+    }
+}
+
+@media(max-width:320px){
+    .skill-icon i{
+        float: none;
+    }
+}
